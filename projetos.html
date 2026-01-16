@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Ingrid Aragão</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="index.html" class="logo">I.A</a>
+            
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="sobre.html" class="nav-link">About</a></li>
+                    <li><a href="projetos.html" class="nav-link active">Portfolio</a></li>
+                    <li><a href="contato.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-right">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <span class="icon-sun">☀️</span>
+                    <span class="icon-moon">🌙</span>
+                </button>
+
+                <button class="menu-hamburger" id="menu-hamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTENT -->
+    <main class="page-content">
+        <div class="container">
+            
+            <!-- INTRO -->
+            <section class="page-intro">
+                <div class="section-line"></div>
+                <h1 class="page-title">Portfolio</h1>
+                <p class="page-subtitle">Selected Works</p>
+                <div class="section-line section-line-rose"></div>
+            </section>
+
+            <!-- STATS -->
+            <section class="portfolio-stats">
+                <div class="stat-item">
+                    <span class="stat-number">27</span>
+                    <span class="stat-label">Photos</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">8</span>
+                    <span class="stat-label">Videos</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">4</span>
+                    <span class="stat-label">Designs</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">2</span>
+                    <span class="stat-label">Apps</span>
+                </div>
+            </section>
+
+            <!-- FILTERS -->
+            <div class="filtros">
+                <button class="filtro-btn active" data-filter="todos">All</button>
+                <button class="filtro-btn" data-filter="foto">Photos</button>
+                <button class="filtro-btn" data-filter="video">Videos</button>
+                <button class="filtro-btn" data-filter="design">Design</button>
+                <button class="filtro-btn" data-filter="apps">Apps</button>
+            </div>
+
+            <!-- ========== PHOTOS SECTION - MASONRY GALLERY ========== -->
+            <section class="portfolio-section" data-category="foto">
+                <div class="section-header">
+                    <div class="section-line"></div>
+                    <h2 class="section-title">Photography</h2>
+                    <div class="section-line section-line-rose"></div>
+                </div>
+
+                <div class="masonry-gallery">
+                    <!-- ROW 1: Suas 27 fotos - adicione os arquivos na pasta img/photos/ -->
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-01.jpg" alt="Photography 01">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-02.jpg" alt="Photography 02">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-03.jpg" alt="Photography 03">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-04.jpg" alt="Photography 04">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-05.jpg" alt="Photography 05">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-06.jpg" alt="Photography 06">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-07.jpg" alt="Photography 07">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-08.jpg" alt="Photography 08">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-09.jpg" alt="Photography 09">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-10.jpg" alt="Photography 10">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-11.jpg" alt="Photography 11">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-12.jpg" alt="Photography 12">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-13.jpg" alt="Photography 13">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-14.jpg" alt="Photography 14">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-15.jpg" alt="Photography 15">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-16.jpg" alt="Photography 16">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-17.jpg" alt="Photography 17">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-18.png" alt="Photography 18">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-19.jpg" alt="Photography 19">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-20.jpg" alt="Photography 20">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-21.jpg" alt="Photography 21">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-22.jpg" alt="Photography 22">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-23.jpg" alt="Photography 23">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-24.jpg" alt="Photography 24">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-25.jpg" alt="Photography 25">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-26.jpg" alt="Photography 26">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="masonry-item" data-category="foto">
+                        <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/PHOTOS/photo-27.jpg" alt="Photography 27">
+                        <div class="masonry-overlay">
+                            <span>View</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ========== VIDEOS SECTION ========== -->
+<section class="portfolio-section" data-category="video">
+    <div class="section-header">
+        <div class="section-line"></div>
+        <h2 class="section-title">Video Production</h2>
+        <div class="section-line section-line-rose"></div>
+    </div>
+
+    <div class="video-grid">
+        <!-- VIDEO 1 -->
+        <div class="video-card" data-category="video" data-video="IMGs/VIDEOS/Video-01.mp4">
+            <div class="video-thumbnail">
+                <div class="video-placeholder">
+                    <span class="video-number">01</span>
+                </div>
+                <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/VIDEOS/thumb-01.png" alt="Video 01" onerror="this.style.display='none'">
+                <div class="video-play-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="video-info">
+                <h3>Pronaica</h3>
+                <p>Audiovisual production & editing</p>
+            </div>
+        </div>
+        
+        <!-- VIDEO 2 -->
+        <div class="video-card" data-category="video" data-video="IMGs/VIDEOS/Video-02.mp4">
+            <div class="video-thumbnail">
+                <div class="video-placeholder">
+                    <span class="video-number">02</span>
+                </div>
+                <img src="IMGs/VIDEOS/thumb-02.png" alt="Video 02" onerror="this.style.display='none'">
+                <div class="video-play-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="video-info">
+                <h3>Julia</h3>
+                <p>Audiovisual production & editing</p>
+            </div>
+        </div>
+        
+        <!-- VIDEO 3 -->
+        <div class="video-card" data-category="video" data-video="IMGs/VIDEOS/Video-03.mp4">
+            <div class="video-thumbnail">
+                <div class="video-placeholder">
+                    <span class="video-number">03</span>
+                </div>
+                <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/VIDEOS/thumb-03.png" alt="Video 03" onerror="this.style.display='none'">
+                <div class="video-play-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="video-info">
+                <h3>Freya AI VMG</h3>
+                <p>Audiovisual production & editing</p>
+            </div>
+        </div>
+        
+              <!-- VIDEO 4 -->
+
+        <div class="video-card" data-category="video" data-video="IMGs/VIDEOS/Video-04.mp4">
+            <div class="video-thumbnail">
+                <div class="video-placeholder">
+                    <span class="video-number">04</span>
+                </div>
+                <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/VIDEOS/thumb-04.png" alt="Video 04" onerror="this.style.display='none'">
+                <div class="video-play-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="video-info">
+                <h3>Construtora Celi</h3>
+                <p>Audiovisual production & editing</p>
+            </div>
+        </div>
+        
+            <!-- VIDEO 5 -->
+
+        <div class="video-card" data-category="video" data-video="IMGs/VIDEOS/Video-05.mp4">
+            <div class="video-thumbnail">
+                <div class="video-placeholder">
+                    <span class="video-number">05</span>
+                </div>
+                <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/VIDEOS/thumb-05.png" alt="Video 05" onerror="this.style.display='none'">
+                <div class="video-play-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="video-info">
+                <h3>AI VMG</h3>
+                <p>Audiovisual production & editing</p>
+            </div>
+        </div>
+        
+                <!-- VIDEO 6 -->
+ 
+        <div class="video-card" data-category="video" data-video="IMGs/VIDEOS/Video-06.mp4">
+            <div class="video-thumbnail">
+                <div class="video-placeholder">
+                    <span class="video-number">06</span>
+                </div>
+                <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/VIDEOS/thumb-06.png" alt="Video 06" onerror="this.style.display='none'">
+                <div class="video-play-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="video-info">
+                <h3>Cosil</h3>
+                <p>Audiovisual production & editing</p>
+            </div>
+        </div>
+        
+             <!-- VIDEO 7 -->
+
+        <div class="video-card" data-category="video" data-video="IMGs/VIDEOS/Video-07.mp4">
+            <div class="video-thumbnail">
+                <div class="video-placeholder">
+                    <span class="video-number">07</span>
+                </div>
+                <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/VIDEOS/thumb-07.png" alt="Video 07" onerror="this.style.display='none'">
+                <div class="video-play-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="video-info">
+                <h3>Colégio Coc</h3>
+                <p>Audiovisual production & editing</p>
+            </div>
+        </div>
+        
+       <!-- VIDEO 8 -->
+        <div class="video-card" data-category="video" data-video="IMGs/VIDEOS/Video-08.mp4">
+            <div class="video-thumbnail">
+                <div class="video-placeholder">
+                    <span class="video-number">08</span>
+                </div>
+                <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/VIDEOS/thumb-08.png" alt="Video 08" onerror="this.style.display='none'">
+                <div class="video-play-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="video-info">
+                <h3>AI (COMIDA)</h3>
+                <p>Audiovisual production & editing</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- VIDEO MODAL -->
+<div class="video-modal" id="video-modal">
+    <button class="video-modal-close" id="video-modal-close">×</button>
+    <video id="video-player" controls>
+        <source src="" type="video/mp4">
+    </video>
+</div>
+
+
+            <!-- ========== DESIGN SECTION ========== -->
+            <section class="portfolio-section" data-category="design">
+                <div class="section-header">
+                    <div class="section-line"></div>
+                    <h2 class="section-title">Design</h2>
+                    <div class="section-line section-line-rose"></div>
+                </div>
+
+                <div class="design-grid">
+                    <!-- DESIGN 1 -->
+                    <article class="projeto-card" data-category="design">
+                        <div class="projeto-image">
+                            <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/DESIGNS/Design_01.png" alt="Design 01">
+                            <div class="projeto-overlay">
+                                <span>View Project</span>
+                            </div>
+                        </div>
+                        <div class="projeto-info">
+                            <span class="projeto-category">Branding</span>
+                            <h3 class="projeto-title">Ordem Terceira Secular de São Francisco</h3>
+                            <p class="projeto-desc">Visual identity and branding</p>
+                        </div>
+                    </article>
+                    
+                    <!-- DESIGN 2 -->
+                    <article class="projeto-card" data-category="design">
+                        <div class="projeto-image">
+                            <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/DESIGNS/Design-02.png" alt="Design 02">
+                            <div class="projeto-overlay">
+                                <span>View Project</span>
+                            </div>
+                        </div>
+                        <div class="projeto-info">
+                            <span class="projeto-category">Branding</span>
+                            <h3 class="projeto-title">Caju Up</h3>
+                            <p class="projeto-desc">Visual identity and branding</p>
+                        </div>
+                    </article>
+                    
+                    <!-- DESIGN 3 -->
+                    <article class="projeto-card" data-category="design">
+                        <div class="projeto-image">
+                            <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/DESIGNS/Design-03.jpg" alt="Design 03">
+                            <div class="projeto-overlay">
+                                <span>View Project</span>
+                            </div>
+                        </div>
+                        <div class="projeto-info">
+                            <span class="projeto-category">Branding</span>
+                            <h3 class="projeto-title">Herval Jr Acessoria</h3>
+                            <p class="projeto-desc">Visual identity and branding</p>
+                        </div>
+                    </article>
+                    
+                    <!-- DESIGN 4 -->
+                    <article class="projeto-card" data-category="design">
+                        <div class="projeto-image">
+                            <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/DESIGNS/Design-04.png" alt="Design 04">
+                            <div class="projeto-overlay">
+                                <span>View Project</span>
+                            </div>
+                        </div>
+                        <div class="projeto-info">
+                            <span class="projeto-category">Branding</span>
+                            <h3 class="projeto-title">LinkHub</h3>
+                            <p class="projeto-desc">Visual identity and branding</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- ========== APPS SECTION ========== -->
+            <section class="portfolio-section" data-category="apps">
+                <div class="section-header">
+                    <div class="section-line"></div>
+                    <h2 class="section-title">Applications</h2>
+                    <div class="section-line section-line-rose"></div>
+                </div>
+
+                <div class="apps-grid">
+                    <!-- APP 1 - LINKHUB -->
+                    <article class="app-card" data-category="apps">
+                        <div class="app-image">
+                            <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/APPS/App-02.png" alt="LinkHub">
+                            <div class="app-badge">NoCode</div>
+                        </div>
+                        <div class="app-info">
+                            <h3 class="app-title">LinkHub</h3>
+                            <p class="app-desc">
+                                A platform that connects CajuHub students with job opportunities 
+                                and professional networking. Built with Glideapps.
+                            </p>
+                            <div class="app-tech">
+                                <span>Glideapps</span>
+                                <span>NoCode</span>
+                                <span>CRM</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- APP 2 - SATOAPP -->
+                    <article class="app-card" data-category="apps">
+                        <div class="app-image">
+                            <img src="/HTML_CSS/PORTFOLIO INGRID/IMGs/APPS/App-01.png" alt="Sato App">
+                            <div class="app-badge">NoCode</div>
+                        </div>
+                        <div class="app-info">
+                            <h3 class="app-title">Sato App</h3>
+                            <p class="app-desc">
+                                Sato App
+                            </p>
+                            <div class="app-tech">
+                                <span>NoCode</span>
+                                <span>Portfolio</span>
+                                <span>Networking</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- LIGHTBOX FOR PHOTOS -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightbox-close">×</button>
+        <button class="lightbox-prev" id="lightbox-prev">‹</button>
+        <button class="lightbox-next" id="lightbox-next">›</button>
+        <img src="" alt="" class="lightbox-image" id="lightbox-image">
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Ingrid Aragão — All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
